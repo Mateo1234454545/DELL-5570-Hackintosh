@@ -6,7 +6,7 @@ Cpu : Intel i5-8250u at 1.6ghz (Kabylake-r)
 Gpu : Intel UHD620
 Ram : 8gb ddr4 2400ghz
 Hard disk : I replaced the standard hd with a Samsung 860 evo and I added a Samsung 860evo at m2 slot. 
-Wifi/bt : Factory qualcomm won't work. I replaced it with a Broadcomm 94360CS2 working natively. Fingerpring sensor : Won't work with mac, so I disabled it. 
+Wifi/bt : Factory qualcomm won't work. I replaced it with a Broadcomm 94360CS2 working natively. Fingerprint sensor : Won't work with mac, so I disabled it. 
 Card reader : I don't need it , so I disabled it from bios.
 
 What is working : Pretty much everything...
@@ -35,12 +35,25 @@ Some notes :
 
 	✓	There is a Bios editing section at the end of this section. If you don't follow it you won't ne able to boot with the current OC folder.
 
+OpenCore Update 1/1/21
+
+•	Update OC and kexts to latest version 0.6.4
+
+•	Update smbios to 16,3
+
+•	Replaced ACPI patch BRT6 with BrightnessKeys.kext
+
+•	More SSDT and Config.plist optimization
+
 
 BIG SUR UPDATE  14/8/20
 
 •	Update OC and kexts to latest version  (see note 1)
+
 •	Revert back to smbios 15,2.
+
 •	SSDT's and config.plist optimisation.
+
 •	Solved audio from headphones disappearing after sleep , with SSDT-HRT.aml. Needs more testimg    
        though.
 
