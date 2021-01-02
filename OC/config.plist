@@ -226,7 +226,7 @@
 				<key>Count</key>
 				<integer>2</integer>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>X1NUQQCgDZNQ</data>
 				<key>Limit</key>
@@ -304,7 +304,7 @@
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>X1NUQQCgDZM=</data>
 				<key>Limit</key>
