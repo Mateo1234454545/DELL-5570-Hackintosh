@@ -12,7 +12,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-EC-USBX.aml</string>
+				<string>SSDT-EC-USBX-LAPTOP.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -36,7 +36,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-MCHC-SBUS.aml</string>
+				<string>SSDT-MCHC.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -141,6 +141,20 @@
 				<key>All</key>
 				<true/>
 				<key>Comment</key>
+				<string>UsbCTabl</string>
+				<key>Enabled</key>
+				<true/>
+				<key>OemTableId</key>
+				<data>VXNiQ1RhYmw=</data>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>U1NEVA==</data>
+			</dict>
+			<dict>
+				<key>All</key>
+				<true/>
+				<key>Comment</key>
 				<string>xh_OEMBD</string>
 				<key>Enabled</key>
 				<true/>
@@ -160,6 +174,34 @@
 				<true/>
 				<key>OemTableId</key>
 				<data>c2Vuc3JodWI=</data>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>U1NEVA==</data>
+			</dict>
+			<dict>
+				<key>All</key>
+				<true/>
+				<key>Comment</key>
+				<string>DptfTabl</string>
+				<key>Enabled</key>
+				<true/>
+				<key>OemTableId</key>
+				<data>RHB0ZlRhYmw=</data>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>U1NEVA==</data>
+			</dict>
+			<dict>
+				<key>All</key>
+				<true/>
+				<key>Comment</key>
+				<string>TbtTypeC</string>
+				<key>Enabled</key>
+				<true/>
+				<key>OemTableId</key>
+				<data>VGJ0VHlwZUM=</data>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
