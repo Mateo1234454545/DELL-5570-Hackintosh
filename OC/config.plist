@@ -911,6 +911,8 @@
 			<false/>
 			<key>PickerMode</key>
 			<string>External</string>
+			<key>PickerVariant</key>
+			<string>Auto</string>
 			<key>PollAppleHotKeys</key>
 			<true/>
 			<key>ShowPicker</key>
@@ -982,7 +984,25 @@
 				<key>Auxiliary</key>
 				<true/>
 				<key>Comment</key>
-				<string>CleanNvram.efi</string>
+				<string>OpenCore-configured UEFI Shell for compatibility with a broad range of firmware</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Name</key>
+				<string>OpenShell.efi</string>
+				<key>Path</key>
+				<string>OpenShell.efi</string>
+				<key>RealPath</key>
+				<false/>
+				<key>TextMode</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Auxiliary</key>
+				<true/>
+				<key>Comment</key>
+				<string>Reset NVRAM alternative bundled as a standalone tool</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Name</key>
@@ -1000,13 +1020,13 @@
 				<key>Auxiliary</key>
 				<true/>
 				<key>Comment</key>
-				<string>OpenShell.efi</string>
+				<string>Utility to perform system reset</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Name</key>
-				<string>OpenShell.efi</string>
+				<string>ResetSystem.efi</string>
 				<key>Path</key>
-				<string>OpenShell.efi</string>
+				<string>ResetSystem.efi</string>
 				<key>RealPath</key>
 				<false/>
 				<key>TextMode</key>
@@ -1035,7 +1055,7 @@
 				<key>SystemAudioVolume</key>
 				<data>ZA==</data>
 				<key>boot-args</key>
-				<string>-v</string>
+				<string></string>
 				<key>run-efi-updater</key>
 				<string>No</string>
 				<key>csr-active-config</key>
@@ -1137,6 +1157,8 @@
 			<integer>50</integer>
 			<key>PlayChime</key>
 			<string>Auto</string>
+			<key>SetupDelay</key>
+			<integer>0</integer>
 			<key>VolumeAmplifier</key>
 			<integer>130</integer>
 		</dict>
@@ -1238,8 +1260,6 @@
 		</dict>
 		<key>Quirks</key>
 		<dict>
-			<key>DeduplicateBootOrder</key>
-			<true/>
 			<key>ExitBootServicesDelay</key>
 			<integer>0</integer>
 			<key>IgnoreInvalidFlexRatio</key>
