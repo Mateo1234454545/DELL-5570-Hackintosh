@@ -35,6 +35,16 @@ Some notes :
 
 	✓	There is a Bios editing section at the end of this section. If you don't follow it you won't ne able to boot with the current OC folder.
 
+OpenCore Update 5/19/21
+
+•	Update OC and kexts to latest version 0.6.9
+
+•	Added/Removed some ACPI patches for optimization
+
+•	Testing branch has been opened to add a new AppleALC version that doesn't require CodecCommander to work. If you intend to test the changes, please make sure to uninstall CodecCommander from /L/E or /S/L/E beforehand
+
+•	More in-depth notes of the changes [here](https://docs.google.com/document/d/1ZCY6Fcx41PItnm4POoBZlHppS6xRBjGxTa2FRvrmpsc)
+
 OpenCore Update 1/1/21
 
 •	Update OC and kexts to latest version 0.6.4
