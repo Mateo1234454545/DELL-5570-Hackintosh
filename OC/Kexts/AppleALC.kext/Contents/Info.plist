@@ -29,19 +29,19 @@
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>12B45b</string>
+	<string>12D4e</string>
 	<key>DTPlatformName</key>
 	<string>macosx</string>
 	<key>DTPlatformVersion</key>
-	<string>11.0</string>
+	<string>11.1</string>
 	<key>DTSDKBuild</key>
-	<string>20A2408</string>
+	<string>20C63</string>
 	<key>DTSDKName</key>
-	<string>macosx11.0</string>
+	<string>macosx11.1</string>
 	<key>DTXcode</key>
-	<string>1220</string>
+	<string>1240</string>
 	<key>DTXcodeBuild</key>
-	<string>12B45b</string>
+	<string>12D4e</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>ALCUserClientProvider</key>
@@ -65,36 +65,6 @@
 			<string>com.apple.driver.AppleHDAHardwareConfigDriver</string>
 			<key>HDAConfigDefault</key>
 			<array>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>
-					AwAAAA==
-					</data>
-					<key>Codec</key>
-					<string>agasecond - Realtek ALC256 (3246) for Xiaomi Pro Enhanced 2019</string>
-					<key>CodecID</key>
-					<integer>283902550</integer>
-					<key>ConfigData</key>
-					<data>
-					ASccIAEnHQEBJx6mAScfkAE3HPABNx0AATce
-					AAE3H0ABRxzwAUcdAAFHHgABRx9AAYcc8AGH
-					HQABhx4AAYcfQAGXHEABlx0QAZceqwGXHwQB
-					pxzwAacdAAGnHgABpx9AAbccEAG3HQEBtx4X
-					AbcfkAG3DAIB1xzwAdcdAAHXHgAB1x9AAecc
-					8AHnHQAB5x4AAecfQAIXHDACFx0QAhceKwIX
-					HwQCFwwCAgUAEAIEACACBQBGAgQwpA==
-					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>69</integer>
-					<key>WakeConfigData</key>
-					<data>
-					AbcMAgIXDAI=
-					</data>
-					<key>WakeVerbReinit</key>
-					<true/>
-				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
 					<data>
@@ -2593,151 +2563,6 @@
 					AwAAAA==
 					</data>
 					<key>Codec</key>
-					<string>Rockjesus - Realtek ALC256 (3246) - dell 7559</string>
-					<key>CodecID</key>
-					<integer>283902550</integer>
-					<key>ConfigData</key>
-					<data>
-					ASccAAEnHQEBJx6mAScfmQFHHBABRx0BAUce
-					FwFHH5kCFxwgAhcdEAIXHiECFx8BAbcMAg==
-					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>11</integer>
-					<key>WakeConfigData</key>
-					<data>
-					AUcMAg==
-					</data>
-					<key>WakeVerbReinit</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>
-					AwAAAA==
-					</data>
-					<key>Codec</key>
-					<string>Insanelydeepak - Realtek ALC256 (3246) for Dell Series</string>
-					<key>CodecID</key>
-					<integer>283902550</integer>
-					<key>ConfigData</key>
-					<data>
-					ASccEAEnHQABJx6gAScfkAFHHCABRx0AAUce
-					FwFHH5ABlxwwAZcdEAGXHosBlx8CAhccUAIX
-					HRACFx4rAhcfAgE3HPABNx0AATceAAE3H0AB
-					hxzwAYcdAAGHHgABhx9AAacc8AGnHQABpx4A
-					AacfQAG3HPABtx0AAbceAAG3H0AB1xzwAdcd
-					AAHXHgAB1x9AAecc8AHnHQAB5x4AAecfQAFH
-					DAI=
-					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>13</integer>
-					<key>WakeConfigData</key>
-					<data>
-					AUcMAg==
-					</data>
-					<key>WakeVerbReinit</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>
-					AwAAAA==
-					</data>
-					<key>Codec</key>
-					<string>Insanelydeepak - Realtek ALC256 (3246) for Dell Series with subwoofer</string>
-					<key>CodecID</key>
-					<integer>283902550</integer>
-					<key>ConfigData</key>
-					<data>
-					ASccEAEnHQABJx6gAScfkAFHHCABRx0AAUce
-					FwFHH5ABRwwCAZccMAGXHRABlx6LAZcfAgG3
-					HEABtx0AAbceFwG3H5ABtwwCAhccUAIXHRAC
-					Fx4rAhcfAgE3HPABNx0AATceAAE3H0ABhxzw
-					AYcdAAGHHgABhx9AAacc8AGnHQABpx4AAacf
-					QAHXHPAB1x0AAdceAAHXH0AB5xzwAecdAAHn
-					HgAB5x9A
-					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>14</integer>
-					<key>WakeConfigData</key>
-					<data>
-					AUcMAgG3DAICFwfAAhcIgwGXByQBpwcg
-					</data>
-					<key>WakeVerbReinit</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>
-					AwAAAA==
-					</data>
-					<key>Codec</key>
-					<string>VicQ - Realtek ALC256 (3246) for Dell 7000 Series with 2.1Ch</string>
-					<key>CodecID</key>
-					<integer>283902550</integer>
-					<key>ConfigData</key>
-					<data>
-					ASccYAEnHAEBJxymAScckAE3HPABNx0AATce
-					AAE3H0ABRxxAAUcdAQFHHhABRx+QAUcMAgGH
-					HPABhx0AAYceAAGHH0ABlxwgAZcdEAGXHosB
-					lx8BAacccAGnHQABpx6hAacfAQG3HEEBtx0B
-					AbceEAG3H5ABtwwCAdcc8AHXHQAB1x4AAdcf
-					QAHnHPAB5x0AAeceAAHnH0ACFxxQAhcdEAIX
-					HisCFx8BAhcMAg==
-					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>16</integer>
-					<key>WakeConfigData</key>
-					<data>
-					AUcMAgG3DAI=
-					</data>
-					<key>WakeVerbReinit</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>
-					AwAAAA==
-					</data>
-					<key>Codec</key>
-					<string>hjmmc - Realtek ALC256 (3246) for Magicbook 2018 with 4CH</string>
-					<key>CodecID</key>
-					<integer>283902550</integer>
-					<key>ConfigData</key>
-					<data>
-					AUccEAFHHQEBRx4XAUcfkAFHDAIBtxwSAbcd
-					AQG3HhcBtx+QAbcMAgIXHCACFx0QAhceIQIX
-					HwQCFwwCASccMAEnHQEBJx6mAScfkAGXHEAB
-					lx0QAZcegQGXHwQBNxzwATcdAAE3HgABNx9A
-					AYcc8AGHHQABhx4AAYcfQAGnHPABpx0AAace
-					AAGnH0AB1xzwAdcdAAHXHgAB1x9AAecc8AHn
-					HQAB5x4AAecfQA==
-					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>17</integer>
-					<key>WakeConfigData</key>
-					<data>
-					AUcMAgG3DAICFwwC
-					</data>
-					<key>WakeVerbReinit</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>
-					AwAAAA==
-					</data>
-					<key>Codec</key>
 					<string>Andres ZeroCross for Dell 5570</string>
 					<key>CodecID</key>
 					<integer>283902550</integer>
@@ -2805,237 +2630,6 @@
 					<key>WakeConfigData</key>
 					<data>
 					AUcMAg==
-					</data>
-					<key>WakeVerbReinit</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>
-					AwAAAA==
-					</data>
-					<key>CodecID</key>
-					<integer>283902550</integer>
-					<key>Comment</key>
-					<string>vusun123 - ALC256 for Asus X555UJ</string>
-					<key>ConfigData</key>
-					<data>
-					AUccUAFHHQABRx4XAUcfkAFHDAIBpxwwAacd
-					AAGnHqABpx+QAhccIAIXHRACFx4hAhcfAA==
-					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>28</integer>
-					<key>WakeConfigData</key>
-					<data>
-					AUcMAg==
-					</data>
-					<key>WakeVerbReinit</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>
-					AwAAAA==
-					</data>
-					<key>Codec</key>
-					<string>DalianSky - Realtek ALC256 (3246) for Dell 7000 Series</string>
-					<key>CodecID</key>
-					<integer>283902550</integer>
-					<key>ConfigData</key>
-					<data>
-					ASccMAEnHQEBJx6mAScfkAE3HPABNx0AATce
-					AAE3H0ABRxwQAUcdAQFHHhcBRx+QAUcMAgGH
-					HPABhx0AAYceAAGHH0ABlxxAAZcdEAGXHoEB
-					lx8CAacc8AGnHQABpx4AAacfQAG3HPABtx0A
-					AbceAAG3H0AB1xzwAdcdAAHXHgAB1x9AAecc
-					8AHnHQAB5x4AAecfQAIXHCACFx0QAhceIQIX
-					HwICFwwC
-					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>56</integer>
-					<key>WakeConfigData</key>
-					<data>
-					AUcMAg==
-					</data>
-					<key>WakeVerbReinit</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>
-					AwAAAA==
-					</data>
-					<key>Codec</key>
-					<string>Kk Realtek ALC256 (3246) for magicbook</string>
-					<key>CodecID</key>
-					<integer>283902550</integer>
-					<key>ConfigData</key>
-					<data>
-					AScccAEnHQEBJx6mAScfkAE3HPABNx0AATce
-					AAE3H0ABRxzwAUcdAAFHHgABRx9AAYcc8AGH
-					HQABhx4AAYcfQAGXHDABlx0QAZceiwGXHwIB
-					pxzwAacdAAGnHgABpx9AAbccQAG3HQEBtx4Q
-					AbcfkAG3DAIB1xzwAdcdAAHXHgAB1x9AAecc
-					8AHnHQAB5x4AAecfQAIXHFACFx0QAhceKwIX
-					HwICFwwC
-					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>57</integer>
-					<key>WakeConfigData</key>
-					<data>
-					AbcMAgIXDAI=
-					</data>
-					<key>WakeVerbReinit</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>
-					AwAAAA==
-					</data>
-					<key>Codec</key>
-					<string>lgs3137 - Realtek ALC256 for ASUS Y5000U X507UBR</string>
-					<key>CodecID</key>
-					<integer>283902550</integer>
-					<key>ConfigData</key>
-					<data>
-					AScc8AEnHQABJx4AAScfQAE3HPABNx0AATce
-					AAE3H0ABRxwgAUcdAQFHHhcBRx+QAUcMAgGH
-					HPABhx0AAYceAAGHH0ABlxwwAZcdEAGXHosB
-					lx8CAacc8AGnHQABpx4AAacfQAG3HDABtx0A
-					AbceoAG3H5ABtwwCAdcc8AHXHQAB1x4AAdcf
-					QAHnHPAB5x0AAeceAAHnH0ACFxxQAhcdEAIX
-					HisCFx8CAhcMAgGXByQBtwckAhcIgw==
-					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>66</integer>
-					<key>WakeConfigData</key>
-					<data>
-					AUcMAgIXDAIBlwckAbcHJAIXCIM=
-					</data>
-					<key>WakeVerbReinit</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>
-					AwAAAA==
-					</data>
-					<key>Codec</key>
-					<string>Realtek ALC256 for Dell OptiPlex 7080</string>
-					<key>CodecID</key>
-					<integer>283902550</integer>
-					<key>ConfigData</key>
-					<data>
-					AUccEAFHHQEBRx4XAUcfkAGXHEABlx0QAZce
-					iwGXHwIBtxwgAbcdEAG3HgEBtx8BAhccMAIX
-					HRACFx4rAhcfAgFHDAIBtwwCAhcMAg==
-					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>67</integer>
-					<key>WakeConfigData</key>
-					<data>
-					AUcMAgG3DAICFwwC
-					</data>
-					<key>WakeVerbReinit</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>
-					AwAAAA==
-					</data>
-					<key>Codec</key>
-					<string>Durian - Realtek ALC256 (3246) for MateBook X Pro 2019（4CH）</string>
-					<key>CodecID</key>
-					<integer>283902550</integer>
-					<key>ConfigData</key>
-					<data>
-					AbccEAG3HQEBtx4XAbcfkAG3DAIBRxwRAUcd
-					AQFHHhcBRx+QAUcMAgIXHCACFx0QAhceIQIX
-					HwICFwwCASccMAEnHQEBJx6mAScfkAGXHPAB
-					lx0AAZceAAGXH0AB1xzwAdcdAAHXHgAB1x9A
-					AYcc8AGHHQABhx4AAYcfQAE3HPABNx0AATce
-					AAE3H0ABpxzwAacdAAGnHgABpx9AAecc8AHn
-					HQAB5x4AAecfQA==
-					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>76</integer>
-					<key>WakeConfigData</key>
-					<data>
-					AbcMAgFHDAI=
-					</data>
-					<key>WakeVerbReinit</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>
-					AwAAAA==
-					</data>
-					<key>Codec</key>
-					<string>Wanwu - Realtek ALC256 (3246) for MateBook X Pro 2019</string>
-					<key>CodecID</key>
-					<integer>283902550</integer>
-					<key>ConfigData</key>
-					<data>
-					ASccIAEnHQEBJx6mAScfkAE3HPABNx0AATce
-					AAE3H0ABRxzwAUcdAAFHHgABRx9AAYcc8AGH
-					HQABhx4AAYcfQAGXHEABlx0QAZceqwGXHwQB
-					pxzwAacdAAGnHgABpx9AAbccEAG3HQEBtx4X
-					AbcfkAG3DAIB1xzwAdcdAAHXHgAB1x9AAecc
-					8AHnHQAB5x4AAecfQAIXHDACFx0QAhceKwIX
-					HwQCFwwC
-					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>19</integer>
-					<key>WakeConfigData</key>
-					<data>
-					AbcMAgIXDAI=
-					</data>
-					<key>WakeVerbReinit</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>
-					AwAAAA==
-					</data>
-					<key>Codec</key>
-					<string>DalianSky - Realtek ALC256 (3246) for MateBook X Pro 2019</string>
-					<key>CodecID</key>
-					<integer>283902550</integer>
-					<key>ConfigData</key>
-					<data>
-					ASccMAEnHQEBJx6mAScfkAE3HPABNx0AATce
-					AAE3H0ABRxwRAUcdAQFHHhcBRx+QAUcMAgGH
-					HPABhx0AAYceAAGHH0ABlxxAAZcdEAGXHoEB
-					lx8EAacc8AGnHQABpx4AAacfQAG3HBABtx0B
-					AbceFwG3H5ABtwwCAdcc8AHXHQAB1x4AAdcf
-					QAHnHPAB5x0AAeceAAHnH0ACFxwgAhcdEAIX
-					HiECFx8EAhcMAg==
-					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>97</integer>
-					<key>WakeConfigData</key>
-					<data>
-					AbcMAg==
 					</data>
 					<key>WakeVerbReinit</key>
 					<true/>
@@ -6188,8 +5782,8 @@
 					<key>ConfigData</key>
 					<data>
 					AUccEAFHHQEBRx4XAUcfkAFHDAICFxwwAhcd
-					EAIXHiECFx8EAhcMAgEnHEABJx0BAScepgEn
-					H7cBlxxQAZcdEQGXHoEBlx+R
+					EAIXHiECFx8EAhcMAgGXHEABlx0RAZceoQGX
+					H5E=
 					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
@@ -6197,7 +5791,7 @@
 					<integer>87</integer>
 					<key>WakeConfigData</key>
 					<data>
-					AUcMAgIXDAIBlwck
+					AUcMAgIXDAIBlwcl
 					</data>
 					<key>WakeVerbReinit</key>
 					<true/>
@@ -10688,32 +10282,6 @@
 					<key>CodecID</key>
 					<integer>283906592</integer>
 					<key>CodecName</key>
-					<string>Custom ALC1220 for Mi Gaming Notebook Creator by Xsixu</string>
-					<key>ConfigData</key>
-					<data>
-					AaccEAGnHQEBpx4XAacfkAFHHCABRx0QAUce
-					IQFHHwABRwwCASccMAEnHREBJx6mAScfkAGX
-					HGABlx0AAZcegQGXHwABlwwC
-					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>98</integer>
-					<key>WakeConfigData</key>
-					<data>
-					AUcMAgGXDAI=
-					</data>
-					<key>WakeVerbReinit</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>
-					AwAAAA==
-					</data>
-					<key>CodecID</key>
-					<integer>283906592</integer>
-					<key>CodecName</key>
 					<string>MiBook 2019 by Dynamix1997</string>
 					<key>ConfigData</key>
 					<data>
@@ -10728,33 +10296,6 @@
 					<key>WakeConfigData</key>
 					<data>
 					AUcMAg==
-					</data>
-					<key>WakeVerbReinit</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>
-					AwAAAA==
-					</data>
-					<key>CodecID</key>
-					<integer>283906592</integer>
-					<key>CodecName</key>
-					<string>Hasee_G8-CU7PK</string>
-					<key>ConfigData</key>
-					<data>
-					AbccEAG3HQEBtx4XAbcfkAG3DAIBRxwfAUcd
-					EAFHHiEBRx8EAUcMAgEnHDABJx0BAScepgEn
-					H5ABhxxAAYcdEAGHHoEBhx8EAeccUAHnHREB
-					5x5FAecfBA==
-					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>100</integer>
-					<key>WakeConfigData</key>
-					<data>
-					AUcMAgG3DAI=
 					</data>
 					<key>WakeVerbReinit</key>
 					<true/>
