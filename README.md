@@ -23,6 +23,8 @@ DOGE : D9ygFekkE295XYSgoosUhybuZZsYwVSwKd
 
 
 
+
+
 CHANGES:
 
 1) Injected new applealc.kext ,modified by me. Now sound from headphones and mic are working even after waking from sleep and with no need of ssdt and codeccommander.kext !!!!
