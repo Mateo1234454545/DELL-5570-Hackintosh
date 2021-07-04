@@ -1,5 +1,45 @@
 Hackintosh on Dell 5570
 
+
+       OPENCORE UPDATE 4/7/21
+
+	•	Summer Update
+	•	Compatible with MacOs Monterey.
+
+
+
+Working hard to keep this project running. If you like it and want to contribute :
+
+DONATE
+
+BTC : 1EPgnnSDinaJmXqgEsLERgbQQk8uZhoQks
+
+ETH : 0x0914a29ffffa4a65d5b15bdb3f57c66b607c35e5  (ERC20)
+
+VET : 0x0914a29ffffa4a65d5b15bdb3f57c66b607c35e5
+
+DOGE : D9ygFekkE295XYSgoosUhybuZZsYwVSwKd
+
+
+
+
+CHANGES:
+
+1) Injected new applealc.kext ,modified by me. Now sound from headphones and mic are working even after waking from sleep and with no need of ssdt and codeccommander.kext !!!!
+Only bug is that right after boot ,sound from headphone doesn't work. Put your laptop to sleep and after that sound is always there.
+Working to find a solution for this bug , too.
+
+2) Solve bluetooth disapearring on Monterey.
+
+3) Remove mem2 device.
+
+4) Use patched voodoops2controller.kext  from Rehabman. Solves caps lock light staying on.
+
+5) Restore smbios to macbookpro 15,2. If you want to keep 16,3 go ahead , not much diffirence anyway.
+
+6) Update to most recent opencore /kexts /drivers versions.
+
+
 Specs :
 
 Cpu : Intel i5-8250u at 1.6ghz (Kabylake-r)
@@ -29,7 +69,46 @@ Some notes :
 
 	✓	Uncheck smart zoom at preferences/trackpad.
 
-	✓	Install codecommander.kext at l/e with proper permissions.
+	✓	Get yourself a serial number in config.plist/smbios.
+
+	✓	There is a Bios editing section at the end of this section. If you don't follow it you won't ne able to boot with the current OC folder.
+
+
+
+                                                     
+
+
+GUIDE FOR BIOS EDITING
+
+To get a fully optimise Macos you should change some setting in BIOS. This is very dangerous and could lead to a bricked laptop. Use it at your own risk. You have been warned !!!!
+
+If you still want to try then :
+
+Follow this guide : http://forum.notebookreview.com/threads/tutorial-xps-15-9550-9550-bios-advanced-options.810307/
+
+and change these settings:
+
+DVMV PRE-ALLOCATED set to 64MB: setup_var 0x795 0x2
+
+DVMT TOTAL GFX MEM set to MAX: setup_var 0x796 0x3
+
+CFG Lock
+set to Disabled: setup_var 0x4ED 0x0
+
+I2CO INTERUPT MODE set to GPIO Interrupt : setup_var 0x272 0x0
+
+
+
+
+CREDITS
+
+Thanks to stevezhengshiqi for guide of Xiaomi-Pro.
+
+Thanks to vit9696/Acidanthera for providing AppleALC, Lilu, VirtualSMC, and WhateverGreen.
+
+Thanks to alexandred and hieplpvip for VoodooI2C.
+
+Especially , Thanks to RehabMan for guiding me all the way. Without his help this guide wouldn't be possible.
 
 	✓	Get yourself a serial number in config.plist/smbios.
 
